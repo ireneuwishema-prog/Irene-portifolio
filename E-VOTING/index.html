@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>2024 Presidential Election</h1>
+            <p>Cast your vote securely from home.</p>
+        </header>
+
+        <section class="candidates-container">
+            <!-- Candidate 1 -->
+            <div class="candidate-card">
+                <img src="https://placehold.co/300x300/007bff/ffffff?text=Candidate+A" alt="Candidate A">
+                <h2>Candidate A</h2>
+                <p>Party for Progress</p>
+                <button onclick="voteFor('Candidate A')">Vote for Candidate A</button>
+            </div>
+
+            <!-- Candidate 2 -->
+            <div class="candidate-card">
+                <img src="https://placehold.co/300x300/28a745/ffffff?text=Candidate+B" alt="Candidate B">
+                <h2>Candidate B</h2>
+                <p>Freedom Alliance</p>
+                <button onclick="voteFor('Candidate B')">Vote for Candidate B</button>
+            </div>
+
+            <!-- Candidate 3 -->
+            <div class="candidate-card">
+                <img src="https://placehold.co/300x300/dc3545/ffffff?text=Candidate+C" alt="Candidate C">
+                <h2>Candidate C</h2>
+                <p>Future Union</p>
+                <button onclick="voteFor('Candidate C')">Vote for Candidate C</button>
+            </div>
+        </section>
+
+        <section id="results-section">
+            <h2>Live Results</h2>
+            <div id="results-container">
+                <p>Loading results...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <!-- Your Main Logic -->
+    <script src="index.jss"></script>
+
+</body>
+</html>

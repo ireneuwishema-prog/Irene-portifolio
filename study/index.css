@@ -1,0 +1,30 @@
+body{
+    background: rgb(0, 149, 255);
+    height: 700px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    position: relative;
+}
+ul{
+    display: flex;
+    background-color: black;
+    /* color: white; */
+}
+.drop:hover .LIST{
+    display: block;
+}
+.LIST{
+   display: none;
+   position: absolute;
+   right: 85%;
+   background-color: green;
+}
+.LIST:active{
+    color: whitesmoke;
+}
