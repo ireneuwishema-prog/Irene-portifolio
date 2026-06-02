@@ -16,7 +16,7 @@ switch(num){
         console.log('goooooooooooooooooooooood');
         break;
     case 2 :
-            console.log('wahttttttttttttttttttttttttttttttttt');
+            console.log('whattttttttttttttttttttttttttttttttt');
         break;
     default :
     console.log('bad'); 
@@ -28,6 +28,7 @@ for (const irene of forid){
 }
 //   while loop 
 let forrr = ['what', 'hey', 'what,sup'];
+
 let count = 0;
 while(count <2){
     console.log(forrr);
