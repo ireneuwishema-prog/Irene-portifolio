@@ -64,6 +64,9 @@ function Calc(cal){
 function delte(del){
        inputNumber.value=inputNumber.value.slice(0,0);
 }
+function delt(dd){
+       inputNumber.value = inputNumber.value.slice(0,-1);;
+}
 function result(retur){
     inputNumber.value= eval(inputNumber.value);
 }
